@@ -34,19 +34,19 @@ And when it is ready, I will release a package here.
 ## Bloopers
 This part is reserved for the kinks that I faced while porting in from the Javascript code.
 
-I found that VBA's own mod function providing the modulus of a division returns Integer types as result and it causes an error in calculation that took me 3-6hrs so finally found it as the culprit (also because I don't fully understand the idea behind the Javascript code and my unfamiliarity with Javascript).\
+I found that VBA's own mod function providing the modulus of a division, returns Integer types as result and that caused an error in calculation which took me 3-6hrs or so, to finally found it as the culprit (also because I don't fully understand the idea behind the Javascript code and my unfamiliarity with Javascript).\
 It doesn't seem very big but when <b>3 mod 2.5</b> produces 1 where as a floating point modulus function would return <b>0.5</b> which would causes a chain reaction of adding up days like 2weeks to 50days in a calendar calculation!
 
-The second bottle neck I encountered during the porting process was setting a variable that I supposed should hold a boolean which I didn't know or forgot how Javascript handles thus causing it to hold a VBA value of -1 equivalent to the Boolean TRUE while the original Javascript code supposed it to hold just a 0 and I was off by something like a staggering 4-5 months into the future.\
-Phew! Thank god I found it after 6hrs being stucked trying to solve it by pulling my hairs out (now I just shaved my hairless head. I mean, why not?!).
+The second bottle neck I encountered during the porting process was setting a variable that I supposed should hold a boolean which I didn't know or forgot how Javascript handles booleans thus causing it to hold a VBA value of -1 equivalent to the Boolean TRUE while the original Javascript code supposed it to hold just a 0 and I was off by something like a staggering 4-5 months into the future.\
+Phew! Thank god I found it after 6hrs being stucked trying to solve it by pulling my hairs out (now I just shaved my head like an egg. I mean, why not?!).
 
-The last issue is that there no intrinsic mechanism to check/reject the user from entering a Oo/Hnaung (in English, Early or Late) Tagu(?Kason) month information while converting from Burmese Dates into Western Dates.\
+The last issue is that there no intrinsic mechanism implemented in the original functions to check/reject the user from entering a Oo/Hnaung value (in English, Early or Late) Tagu(?Kason) month information while lacking it in parameter passing can cause errors in Burmese Dates into Western Dates conversion.\
 From Mr. Yan Naing Aye's page, I thought that it only occurs in the Tagu or Kason months and I believe that Tagu has more chance. It was clearly explained on his page and many thanks for sharing that knowledge.\
 But I believe that if we don't provide it, it might cause errorneous calculations. Need to check this further.\
 The best method I found so far is: to find the Burmese Date of a western date in question first, then using the output of that function=the correctly configured string for passing into the Burmese->Western Date conversion function because if a misconfigured Oo/Hnaung information were passed (the possible values are just a 0 and 1), there will be some wrong returns from the B->W conversion function.
 
 ### Requesting permission to port Javascript code to VBA code
-I have submitted a request from the original author: Mr. Yan Naing Aye to allow me to convert his Javascript code into VBA from his website's comment feature (that was like a week ago) and today through his LinkedIn page and so far (as of 04NOV2021), no reply was received yet.\
+I have submitted a request to the original author: Mr. Yan Naing Aye to allow me to convert his Javascript code into VBA from his website's comment feature (that was like a week ago) and today through his LinkedIn page and so far (as of 04NOV2021), no reply was received yet.\
 Until I am officially allowed to port, I won't be able to share my VBA code.
 
 ## Acknowledgements and Thanks
@@ -58,6 +58,6 @@ I found that there are both Javascript version and C++ version over there but th
 And there's an awesome realtime interactive calendar developed and shared by the same benefactor over [here](https://yan9a.github.io/mmcal/)
 
 ## Things to do
-- More streamlined and elegant code
-- Will probably allow the parameters in and out of the UDFs in Burmese and if this happens, it will be restricted to Unicode fonts only
+- Improve the current VBA code into a more streamlined, error-free and clean and elegant code
+- Will probably allow the parameters in and out of the UDFs in Burmese and if this happens, it will be limited to Unicode fonts only (Myanmar people, please stop using Zawgyi font)
 - Will probably take the pains to come up with an Excel formula but afraid that it will be quite staggering considering the calculations involved nonetheless, that's the first thing on my mind as of now
