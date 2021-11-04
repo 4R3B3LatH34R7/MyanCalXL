@@ -50,7 +50,8 @@ I have submitted a request to the original author: Mr. Yan Naing Aye to allow me
 Until I am officially allowed to port, I won't be able to share my VBA code.
 
 ## Acknowledgements and Thanks
-All credits goes to Mr. Yan Naing Aye and also to the people who asked a simple question like, "How do we convert Myanmar dates to Western Dates...and vice versa?"...
+All credits goes to Mr. Yan Naing Aye and also to the people who asked a simple question like, "How do we convert Myanmar dates to Western Dates...and vice versa?"...|
+We porter are literally like the Porters who carry stuff from the sellers, in this case the original author and the buyers, the Myanmar Users, to their doorsteps...
 
 ## Further Information
 I searched and found that Mr. Yan Naing Aye has also a GitHub repo [here](https://github.com/yan9a/mmcal).\
@@ -59,5 +60,5 @@ And there's an awesome realtime interactive calendar developed and shared by the
 
 ## Things to do
 - Improve the current VBA code into a more streamlined, error-free and clean and elegant code
-- Will probably allow the parameters in and out of the UDFs in Burmese and if this happens, it will be limited to Unicode fonts only (Myanmar people, please stop using Zawgyi font).
+- Will probably allow the parameters in and out of the UDFs in Burmese language/font and if this happens, it will be limited to Unicode fonts only (Myanmar people, please stop using Zawgyi font).
 - Will probably take the pains to come up with an Excel formula but afraid that it will be quite staggering considering the calculations involved nonetheless, that's the first thing on my mind as of now
