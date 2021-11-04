@@ -34,7 +34,7 @@ And when it is ready, I will release a package here.
 ## Bloopers
 This part is reserved for the kinks that I faced while porting in from the Javascript code.
 
-I found that VBA's own mod function providing the modulus of a division, returns Integer types as result and that caused an error in calculation which took me 3-6hrs or so, to finally found it as the culprit (also because I don't fully understand the idea behind the Javascript code and my unfamiliarity with Javascript).\
+I found that VBA's own mod function providing the modulus of a division, returns Integer types as result and that caused an error in calculation which took me 3-6hrs or so, to finally found it as the culprit (also because I don't fully understand the idea behind the whole Myanmar calendar concept and my unfamiliarity with Javascript).\
 It doesn't seem very big but when <b>3 mod 2.5</b> produces 1 where as a floating point modulus function would return <b>0.5</b> which would causes a chain reaction of adding up days like 2weeks to 50days in a calendar calculation!
 
 The second bottle neck I encountered during the porting process was setting a variable that I supposed should hold a boolean which I didn't know or forgot how Javascript handles booleans thus causing it to hold a VBA value of -1 equivalent to the Boolean TRUE while the original Javascript code supposed it to hold just a 0 and I was off by something like a staggering 4-5 months into the future.\
