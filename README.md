@@ -13,7 +13,8 @@ The usual answer is "Add 638 to Myanmar year!" which is the only method for Myan
 So the desire to help them as well as to quench my own selfish thirst for knowledge led me to search for solutions to this particular question.
 
 Then one day, I found this [webpage](http://coolemerald.blogspot.com/2013/06/algorithm-program-and-calculation-of.html?m=1) by Mr. Yan Naing Aye.\
-On the first read through, I was amazed by the awesomeness alone. The topic was very complicated for me at that time but the person behind it was extremely knowledgeable on the subject matter and explained everything quite clearly as I found out on later readings.\
+On the first read through, I was amazed and humbled by the awesomeness alone.\
+The topic was very complicated for me at that time but the person behind it was extremely knowledgeable on the subject matter and explained everything quite clearly as I found out on later readings.\
 I have other projects going on at the time I first found it, so I had to drop it for some time.\
 Then when I can finally work on it, I have to read through everything again. Even now that I finished porting the Javascript on that page into a fully functional (yet pretty raw) VBA code, I am not ashamed to admit that I still do not fully understand the theory behind it.
 
@@ -50,3 +51,8 @@ Until I am officially allowed to port, I won't be able to share my VBA code.
 
 ## Acknowledgements and Thanks
 It all goes to Mr. Yan Naing Aye and to the people who asked a simple question like, "How do we convert Myanmar dates to Western Dates...and vice versa?"...
+
+## Further Information
+I searched and found that Mr. Yan Naing Aye has also a GitHub repo [here](https://github.com/yan9a/mmcal).
+I found that there are both Javascript version and C++ version over there but the Javascript code is more complicated for me there, so, I just used the more understandable code and explanations on his website.
+And there's an awesome realtime interactive calendar developed and shared by the same benefactor over [here](https://yan9a.github.io/mmcal/)
