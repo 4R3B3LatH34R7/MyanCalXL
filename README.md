@@ -6,13 +6,13 @@ Please note that the outputs of the functions are of type: <b>TEXT in Excel/Stri
 
 ## Brief background
 I am a member of several Facebook groups where people discuss and ask for help on topics related MS Excel.\
-In those places, most of the frequent questions can quite easily be solved by Excel formulas, but many a questions popped-up from time to time that managed to wake the curious cat in me to wonder whether to use VBA to solve them.
+In those places, most of the frequent questions can quite easily be solved by Excel formulas, but many a questions popped-up from time to time that managed to wake the curious cat in me to wonder whether to use VBA to solve them.\
 One of the many of these questions is: "How do I change from Myanmar date to English Date?" or vice versa...\
-The usual answer is "Add 638 to Myanmar year!" which is the only method for Myanmar Calendar conversions that I have had in all my years.
+The usual answer is "Add 638 to Myanmar year!" which is the only method for Myanmar Calendar conversions that I have known in all my years.
 
 So the desire to help them as well as to quench my own selfish thirst for knowledge led me to search for solutions to this particular question.
 
-I found this [webpage](http://coolemerald.blogspot.com/2013/06/algorithm-program-and-calculation-of.html?m=1) by Mr. Yan Naing Aye.\
+Then one day, I found this [webpage](http://coolemerald.blogspot.com/2013/06/algorithm-program-and-calculation-of.html?m=1) by Mr. Yan Naing Aye.\
 On the first read through, I was amazed by the awesomeness alone. The topic was very complicated for me at that time but the person behind it was extremely knowledgeable on the subject matter and explained everything quite clearly as I found out on later readings.\
 I have other projects going on at the time I first found it, so I had to drop it for some time.\
 Then when I can finally work on it, I have to read through everything again. Even now that I finished porting the Javascript on that page into a fully functional (yet pretty raw) VBA code, I am not ashamed to admit that I still do not fully understand the theory behind it.
