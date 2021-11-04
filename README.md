@@ -59,5 +59,5 @@ And there's an awesome realtime interactive calendar developed and shared by the
 
 ## Things to do
 - More streamlined and elegant code
-- Will probably allow the parameters in and out of the UDFs in Burmese and if this happens, it will be restricted to Unicode fonts only.
-- Will probably take the pains to come up with an Excel formula but it will be quite staggering considering the calculations involved nonetheless, that's the first thing on my mind as of now
+- Will probably allow the parameters in and out of the UDFs in Burmese and if this happens, it will be restricted to Unicode fonts only
+- Will probably take the pains to come up with an Excel formula but afraid that it will be quite staggering considering the calculations involved nonetheless, that's the first thing on my mind as of now
