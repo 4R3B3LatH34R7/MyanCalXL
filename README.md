@@ -36,7 +36,9 @@ It doesn't seem very big but when <b>3 mod 2.5</b> produces 1 where as a floatin
 The second bottle neck I encountered during the porting process was setting a variable that I supposed should hold a boolean which I didn't know or forgot how Javascript handles thus causing it to hold a VBA value of -1 equivalent to the Boolean TRUE while the original Javascript code supposed it to hold just a 0 and I was off by something like a staggering 4-5 months into the future.\
 Phew! Thank god I found it after 6hrs being stucked trying to solve it by pulling my hairs out (now I just shaved my hairless head. I mean, why not?!).
 
-The last issue is that there no intrinsic mechanism to check/reject the user from entering a Oo/Hnaung (in English, Early or Late) Tagu(?Kason) month information while converting from Burmese Dates into Western Dates. From Mr. Yan Naing Aye's page, I thought that it only occurs in the Tagu or Kason months and I believe that Tagu has more chance. It was clearly explained on his page and many thanks for sharing that knowledge.\
+The last issue is that there no intrinsic mechanism to check/reject the user from entering a Oo/Hnaung (in English, Early or Late) Tagu(?Kason) month information while converting from Burmese Dates into Western Dates.\
+From Mr. Yan Naing Aye's page, I thought that it only occurs in the Tagu or Kason months and I believe that Tagu has more chance. It was clearly explained on his page and many thanks for sharing that knowledge.\
+But I believe that if we don't provide it, it might cause errorneous calculations. Need to check this further.\
 The best method I found so far is: to find the Burmese Date of a western date in question first, then using the output of that function=the correctly configured string for passing into the Burmese->Western Date conversion function because if a misconfigured Oo/Hnaung information were passed (the possible values are just a 0 and 1), there will be some wrong returns from the B->W conversion function.
 
 ### Requesting permission to port Javascript code to VBA code
