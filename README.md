@@ -38,7 +38,7 @@ I found that VBA's own mod function providing the modulus of a division, returns
 It doesn't seem very big but when <b>3 mod 2.5</b> produces 1 where as a floating point modulus function would return <b>0.5</b> which would causes a chain reaction of adding up days like 2weeks to 50days in a calendar calculation!
 
 The second bottle neck I encountered during the porting process was setting a variable that I supposed should hold a boolean which I didn't know or forgot how Javascript handles booleans thus causing it to hold a VBA value of -1 equivalent to the Boolean TRUE while the original Javascript code assumed it to hold just a 0 and I was off by something like a staggering 4-5 months into the future.\
-Phew! Thank god I found it after 6hrs being stucked trying to solve it by pulling my hairs out (now I just shaved my head like an egg. I mean, why not?!).
+Phew! Thank god I found it after 6hrs of being stuck trying to solve it by pulling my hairs out (now I just shaved my head like an egg. I mean, why not?!).
 
 The last issue is that there no intrinsic mechanism implemented in the original functions to check/reject the user from entering a Oo/Hnaung value (in English, Early or Late) Tagu(?Kason) month information while lacking it in parameter passing can cause errors in Burmese Dates into Western Dates conversion.\
 From Mr. Yan Naing Aye's page, I thought that it only occurs in the Tagu or Kason months and I believe that Tagu has more chance. It was clearly explained on his page and many thanks for sharing that knowledge.\
