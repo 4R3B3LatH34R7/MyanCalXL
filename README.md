@@ -9,4 +9,5 @@ The usual answer is "Add 638 to Myanmar year!" which is the only knowledge that 
 
 So the desire to help them as well as to quench my own selfish thirst for knowledge led me to search for solutions to this particular question.
 
-I found this ![webpage](/images/MMRCalXL_in_ImmediateWindow.png).
+I found this [webpage](http://coolemerald.blogspot.com/2013/06/algorithm-program-and-calculation-of.html?m=1) by Mr. Yan Naing Aye.\
+![just finished](/images/MMRCalXL_in_ImmediateWindow.png).
