@@ -48,6 +48,8 @@ The best method I found so far is: to find the Burmese Date of a western date in
 ### Requesting permission to port Javascript code to VBA code
 I have submitted a request to the original author: Mr. Yan Naing Aye to allow me to convert his Javascript code into VBA from his website's comment feature (that was like a week ago) and today through his LinkedIn page and so far (as of 04NOV2021), no reply was received yet.\
 Until I am officially allowed to port, I won't be able to share my VBA code.
+<b>As of 04NOV2021-1800, Mr. Yan Naing Aye has kindly and graciously allowed me to port his Javascript code on his [webpage](http://coolemerald.blogspot.com/2013/06/algorithm-program-and-calculation-of.html?m=1) into VBA code.</b>\
+However, I don't feel like the current VBA code is ready as of now to be distributed to the public as I need some time to clean up the code and review it to make it better and operate more efficiently.
 
 ## Acknowledgements and Thanks
 All credits goes to Mr. Yan Naing Aye and also to the people who asked a simple question like, "How do we convert Myanmar dates to Western Dates...and vice versa?"...|
