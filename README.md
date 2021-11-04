@@ -59,5 +59,5 @@ And there's an awesome realtime interactive calendar developed and shared by the
 
 ## Things to do
 - Improve the current VBA code into a more streamlined, error-free and clean and elegant code
-- Will probably allow the parameters in and out of the UDFs in Burmese and if this happens, it will be limited to Unicode fonts only (Myanmar people, please stop using Zawgyi font)
+- Will probably allow the parameters in and out of the UDFs in Burmese and if this happens, it will be limited to Unicode fonts only (Myanmar people, please stop using Zawgyi font).
 - Will probably take the pains to come up with an Excel formula but afraid that it will be quite staggering considering the calculations involved nonetheless, that's the first thing on my mind as of now
