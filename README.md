@@ -1,5 +1,6 @@
 # MYANMARCalendarXL
 Routines for Calculation and Conversion to and from other calendar(s) to Myanmar Calendar as UDFs...
+As of 04NOV2021, the following usage is possible.
 ![as UDF](/images/MMRCalXL_in_Excel_asUDF.png)
 
 ## Brief background
