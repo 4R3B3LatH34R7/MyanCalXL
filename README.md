@@ -53,6 +53,6 @@ Until I am officially allowed to port, I won't be able to share my VBA code.
 It all goes to Mr. Yan Naing Aye and to the people who asked a simple question like, "How do we convert Myanmar dates to Western Dates...and vice versa?"...
 
 ## Further Information
-I searched and found that Mr. Yan Naing Aye has also a GitHub repo [here](https://github.com/yan9a/mmcal).
-I found that there are both Javascript version and C++ version over there but the Javascript code is more complicated for me there, so, I just used the more understandable code and explanations on his website.
+I searched and found that Mr. Yan Naing Aye has also a GitHub repo [here](https://github.com/yan9a/mmcal).\
+I found that there are both Javascript version and C++ version over there but the Javascript code is more complicated for me there, so, I just stick to the more understandable code and explanations on his website.\
 And there's an awesome realtime interactive calendar developed and shared by the same benefactor over [here](https://yan9a.github.io/mmcal/)
