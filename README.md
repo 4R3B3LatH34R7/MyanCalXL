@@ -50,7 +50,7 @@ I have submitted a request from the original author: Mr. Yan Naing Aye to allow 
 Until I am officially allowed to port, I won't be able to share my VBA code.
 
 ## Acknowledgements and Thanks
-It all goes to Mr. Yan Naing Aye and to the people who asked a simple question like, "How do we convert Myanmar dates to Western Dates...and vice versa?"...
+All credits goes to Mr. Yan Naing Aye and also to the people who asked a simple question like, "How do we convert Myanmar dates to Western Dates...and vice versa?"...
 
 ## Further Information
 I searched and found that Mr. Yan Naing Aye has also a GitHub repo [here](https://github.com/yan9a/mmcal).\
