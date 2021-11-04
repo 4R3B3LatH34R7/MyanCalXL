@@ -6,7 +6,7 @@ Please note that the outputs of the functions are of type: <b>TEXT in Excel/Stri
 
 ## Brief background
 I am a member of several Facebook groups where people discuss and ask for help on topics related MS Excel.\
-In those places, most of the frequent questions can quite easily be solved by Excel formulas, many a questions popped-up from time to time that managed to wake the curious cat in me.
+In those places, most of the frequent questions can quite easily be solved by Excel formulas, but many a questions popped-up from time to time that managed to wake the curious cat in me to wonder whether to use VBA to solve them.
 One of the many of these questions is: "How do I change from Myanmar date to English Date?" or vice versa...\
 The usual answer is "Add 638 to Myanmar year!" which is the only method for Myanmar Calendar conversions that I have had in all my years.
 
