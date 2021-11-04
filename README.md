@@ -22,7 +22,7 @@ I write code in VBA for Excel just because I love VBA but not because I was trai
 This is not an excuse nor gloating what I have done but just recording what I have encountered. I have to say it out loud that, it was not hard but it just was not a walk in the park either.
 
 I have just simply ported Mr. Yan Naing Aye's Javascript code to a working VBA code to be used in MS Excel. The original concept, theory and algorithm behind this whole thing belongs to Mr. Yan Naing Aye.
-I ported it all to VBA just to help our people (oppressed and terrorized by a group of military generals who are cruel, senseless and immoral beyond anything - still true, as of 04NOV2021) who are very resilient, yet content and thirsty for knowledge yet taken-advantage-of, misled and scammed by countless so-called IT tutors who claimed that they can teach all about excel in a week with fees sometimes as low as USD5 (imagine Stilgar's spit scene in the meeting with Leto Atreides, god forbid!)... 
+I ported it all to VBA just to help our people (oppressed and terrorized by a group of military generals who are cruel, senseless and immoral beyond anything - still true, as of 04NOV2021) who are very resilient, yet content and thirsty for knowledge yet taken-advantage-of, misled and scammed (on facebook and off) by countless so-called IT tutors who claimed that they can teach all about excel in a week with fees sometimes as low as USD5 (imagine Stilgar's spit scene in the meeting with Leto Atreides, god forbid!)... 
 
 This was taken yesterday on 03NOV2021.
 ![just finished](/images/MMRCalXL_in_ImmediateWindow.png).
