@@ -1,5 +1,5 @@
 # MYANMARCalendarXL
-Routines for Calculation and Conversion to and from other calendars to Myanmar Calendar
+Routines for Calculation and Conversion to and from other calendar(s) to Myanmar Calendar as UDFs...
 ![as UDF](/images/MMRCalXL_in_Excel_asUDF.png)
 
 ## Brief background
