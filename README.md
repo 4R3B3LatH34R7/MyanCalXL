@@ -55,7 +55,7 @@ All credits goes to Mr. Yan Naing Aye and also to the people who asked a simple 
 ## Further Information
 I searched and found that Mr. Yan Naing Aye has also a GitHub repo [here](https://github.com/yan9a/mmcal).\
 I found that there are both Javascript version and C++ version over there but the Javascript code is more complicated for me there, so, I just stick to the more understandable code and explanations on his website.\
-And there's an awesome realtime interactive calendar developed and shared by the same benefactor over [here](https://yan9a.github.io/mmcal/)
+And there's an awesome realtime interactive calendar developed and shared by the same benefactor over [here](https://yan9a.github.io/mmcal/).
 
 ## Things to do
 - Improve the current VBA code into a more streamlined, error-free and clean and elegant code
