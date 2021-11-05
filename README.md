@@ -52,7 +52,7 @@ Until I am officially allowed to port, I won't be able to share my VBA code.\
 However, I don't feel like the current VBA code is ready as of now to be distributed to the public as I need some time to clean up the code and review it to make it better and operate more efficiently.
 
 ## Acknowledgements and Thanks
-All credits goes to Mr. Yan Naing Aye and also to the people who asked a simple question like, "How do we convert Myanmar dates to Western Dates...and vice versa?"...|
+All credits goes to Mr. Yan Naing Aye and also to the people who asked a simple question like, "How do we convert Myanmar dates to Western Dates...and vice versa?"...\
 We porters are literally like the Porters who carry stuff from the sellers, in this case the original author and the buyers, the Myanmar Users, to their doorsteps...
 
 ## Further Information
