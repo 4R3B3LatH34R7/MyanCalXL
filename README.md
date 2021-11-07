@@ -84,5 +84,5 @@ And there's an awesome realtime interactive calendar developed and shared by the
 - Improve the current VBA code into a more streamlined, error-free and clean and elegant code
 - Will probably allow the parameters in and ~~out of the~~ UDFs in Burmese language/font and if this happens, it will be limited to Unicode fonts only (Myanmar people, please stop using Zawgyi font).
   - Output to Burmese Unicode Font viz. Pyidaungsu Numbers was done as of 06NOV2021
-  - ![Burmese output single](/images/MyanCalXL_Burmese_Unicode.png)
+  - ![Burmese output single](/images/MyanCalXL_Burmese_Unicode2.png)
 - Will probably take the pains to come up with an Excel formula (non VBA-based-UDF) but afraid that it will be quite staggering considering the calculations involved nonetheless, that's the first thing on my mind as of now
