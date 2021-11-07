@@ -46,7 +46,7 @@ But I believe that if we don't provide it, it might cause errorneous calculation
 The best method I found so far is: to find the Burmese Date of a western date in question first, then using the output of that function=the correctly configured string for passing into the Burmese->Western Date conversion function because if a misconfigured Oo/Hnaung information were passed (the possible values are just a 0 and 1), there will be some wrong returns from the B->W conversion function.
 
 After the launch of this repo, a friend and a colleagure, Mr. Sithu Kyaw shared his opinion that it would be nice to have the output (and/or input) as Burmese Unicode font.\
-And for 2 days, I worked on it. And yesterday, it was achieved.\
+And for 2 days, I worked on it. And yesterday, it was achieved (Well, the output part!).\
 It was something I thought of even during the original porting process near the end. However, the only limitation that stopped me from going in that direction during the initial porting process was that, the VBE/VBIDE or simply, the VBEditor window is not compatible with Unicode font as it is made ANSI code pages or so they said. And if I create constants like MMRMonths="တန်ခူး,ကဆုန်,..." etc., the VBE will only show ??????s and it won't even output them to the UI.\
 Of course, we all know that we can output unicode strings to the worksheet and work with unicode strings in memory but the limitation only applies to the VBE.\
 So, my first attempt to overcome that problem was finding ways to be able to declare unicode constants in VBE by changing the Non-Unicode friendly programs to use Burmese/Myanmar from the Control Panel's Region/Locale settings or use some apps like LocaleEmulator/NTLea.\
