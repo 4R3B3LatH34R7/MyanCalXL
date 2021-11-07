@@ -57,7 +57,7 @@ The problem with this approach is that if I do that, I can write unicode strings
 Thus, if they open the .xlsm's project in VBE, all the unicode strings I declared will turn into ?????s like all those people in Midnight Mass come morning and irretrievably gone forever.
 
 Therefore, I decided to convert the Myanmar month names into their own respective character codes using ascW funtion in VBA so that "တန်ခူး" becomes "4112|4116|4154|4097|4144|4152" and hardcode it into the code to be distributed to the user and convert it back to "တန်ခူး" again at the start of the function.\
-It's messy I admit but hey, it works!
+It's messy I admit but hey, it works! Here, I learnt something that if I use split and the join to create the unicode string, it won't put back the unicode string together and I must use & to rejoin the converted unicode parts. It's strange to find out the & and the join don't function the same!
 
 Another issue that came with outputing Burmese fonts is the numbers. The numbers are not encoded in Unicode so they can just be converted to Burmese numbers once they are already in Worksheet by setting the UDF's parent cell's font as "Pyidaungsu Numbers". Without doing that step, if you choose to output to Burmese font, you will get a mixed English and Burmese output not unlike "1383/နတ်တော်/လဆန်း/4". Since UDF's cannot change the Formatting of the Excel UI, I cannot help with that, sorry.
 
