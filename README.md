@@ -33,18 +33,18 @@ And when it is ready, I will release a package here.
 
 ## Bloopers
 This part is reserved for the kinks that I faced while porting in from the Javascript code.
-
+### #1
 I found that VBA's own mod function providing the modulus of a division, returns Integer types as result and that caused an error in calculation which took me 3-6hrs or so, to finally found it as the culprit (also because I don't fully understand the idea behind the whole Myanmar calendar concept and my unfamiliarity with Javascript).\
 It doesn't seem very big but when <b>3 mod 2.5</b> produces 1 where as a floating point modulus function would return <b>0.5</b> which would causes a chain reaction of adding up days like 2weeks to 50days in a calendar calculation!
-
+### #2
 The second bottle neck I encountered during the porting process was setting a variable that I supposed should hold a boolean which I didn't know or forgot how Javascript handles booleans thus causing it to hold a VBA value of -1 equivalent to the Boolean TRUE while the original Javascript code assumed it to hold just a 0 and I was off by something like a staggering 4-5 months into the future.\
 Phew! Thank god I found it after 6hrs of being stuck trying to solve it by pulling my hairs out (now I just shaved my head like an egg. I mean, why not?!).
-
+### #3
 The last issue is that there no intrinsic mechanism implemented in the original functions to check/reject the user from entering a Oo/Hnaung value (in English, Early or Late) Tagu(?Kason) month information while lacking it in parameter passing can cause errors in Burmese Dates into Western Dates conversion.\
 From Mr. Yan Naing Aye's page, I thought that it only occurs in the Tagu or Kason months and I believe that Tagu has more chance. It was clearly explained on his page and many thanks for sharing that knowledge.\
 But I believe that if we don't provide it, it might cause errorneous calculations. Need to check this further.\
 The best method I found so far is: to find the Burmese Date of a western date in question first, then using the output of that function=the correctly configured string for passing into the Burmese->Western Date conversion function because if a misconfigured Oo/Hnaung information were passed (the possible values are just a 0 and 1), there will be some wrong returns from the B->W conversion function.
-
+### #4
 After the launch of this repo, a friend and a colleagure, Mr. Sithu Kyaw shared his opinion that it would be nice to have the output (and/or input) as Burmese Unicode font.\
 And for 2 days, I worked on it. And yesterday, it was achieved (Well, the output part!).\
 It was something I thought of even during the original porting process near the end. However, the only limitation that stopped me from going in that direction during the initial porting process was that, the VBE/VBIDE or simply, the VBEditor window is not compatible with Unicode font as it is made ANSI code pages or so they said. And if I create constants like MMRMonths="တန်ခူး,ကဆုန်,..." etc., the VBE will only show ??????s and it won't even output them to the UI.\
