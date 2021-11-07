@@ -63,7 +63,7 @@ Another issue that came with outputing Burmese fonts is the numbers. The numbers
 
 Enough said about Burmese outputs but one last thing remains that I, for one, do NOT wish to output anything except Numbers from the UDFs. For me, the numbers are the truest, cleanest and most efficient outputs from a UDF, that can be Matched, LookedUP, used-with-Data-Validation-dropdowns at the whims of the User. But in the interest of the ease of use of/by my beloved Myanmar people, I made this effort.\
 Epilogue: one day, I might work on Burmese inputs to the UDF: toMMRDate...\
-![Burmese output combined](/images/MyanCalXL_Burmese_Unicode_Combined2.png)
+![Burmese output combined](/images/MyanCalXL_Burmese_Unicode_Combined.png)
 
 ### Requesting permission to port Javascript code to VBA code
 I have submitted a request to the original author: Mr. Yan Naing Aye to allow me to convert his Javascript code into VBA from his website's comment feature (that was like a week ago) and today through his LinkedIn page and so far (as of 04NOV2021), no reply was received yet.\
