@@ -45,6 +45,20 @@ From Mr. Yan Naing Aye's page, I thought that it only occurs in the Tagu or Kaso
 But I believe that if we don't provide it, it might cause errorneous calculations. Need to check this further.\
 The best method I found so far is: to find the Burmese Date of a western date in question first, then using the output of that function=the correctly configured string for passing into the Burmese->Western Date conversion function because if a misconfigured Oo/Hnaung information were passed (the possible values are just a 0 and 1), there will be some wrong returns from the B->W conversion function.
 
+After the launch of this repo, a friend and a colleagure, Mr. Sithu Kyaw shared his opinion that it would be nice to have the output (and/or input) as Burmese Unicode font.\
+And for 2 days, I worked on it. And yesterday, it was achieved.\
+It was something I thought of even during the original porting process near the end. However, the only limitation that stopped me from going in that direction during the initial porting process was that, the VBE/VBIDE or simply, the VBEditor window is not compatible with Unicode font as it is made ANSI code pages or so they said. And if I create constants like MMRMonths="တန်ခူး,ကဆုန်,..." etc., the VBE will only show ??????s and it won't even output them to the UI.\
+Of course, we all know that we can output unicode strings to the worksheet and work with unicode strings in memory but the limitation only applies to the VBE.\
+So, my first attempt to overcome that problem was finding ways to be able to declare unicode constants in VBE by changing the Non-Unicode friendly programs to use Burmese/Myanmar from the Control Panel's Region/Locale settings or use some apps like LocaleEmulator/NTLea.\
+The problem with this approach is that if I do that, I can write unicode strings in VBE but not every user would be willing to install new apps or restart their computers after changing the said Locale settings.\
+Thus, if they open the .xlsm's project in VBE, all the unicode strings I declared will turn into ?????s like all those people in Midnight Mass come morning and irretrievably gone forever.\
+Therefore, I decided to convert the Myanmar month names into their own respective character codes using ascW funtion in VBA so that "တန်ခူး" becomes "4112|4116|4154|4097|4144|4152" and hardcode it into the code to be distributed to the user and convert it back to "တန်ခူး" again at the start of the function.\
+It's messy I admit but hey, it works!\
+Another issue that came with outputing Burmese fonts is the numbers. The numbers are not encoded in Unicode so they can just be converted to Burmese numbers once they are already in Worksheet by setting the UDF's parent cell as "Pyidaungsu Numbers". Without doing that step, if you choose to output to Burmese font, you will get a mixed English and Burmese output not unlike "1383/နတ်တော်/လဆန်း/4". Since UDF's cannot change the Formatting of the Excel UI, I cannot help with that, sorry.\
+Enough said about Burmese outputs but one last thing remains that I, for one, do NOT wish to output anything except Numbers from the UDFs. For me, the numbers are the truest, cleanest and most efficient outputs from a UDF, that can be Matched, LookedUP, used-with-Data-Validation-dropdowns at the whims of the User. But in the interest of the ease of use of/by my beloved Myanmar people, I made this effort.\
+Epilogue: one day, I might work on Burmese inputs to the UDF: toMMRDate...\
+![Burmese output](/images/MyanCalXL_Burmese_Unicode.png)
+
 ### Requesting permission to port Javascript code to VBA code
 I have submitted a request to the original author: Mr. Yan Naing Aye to allow me to convert his Javascript code into VBA from his website's comment feature (that was like a week ago) and today through his LinkedIn page and so far (as of 04NOV2021), no reply was received yet.\
 Until I am officially allowed to port, I won't be able to share my VBA code.\
@@ -62,5 +76,6 @@ And there's an awesome realtime interactive calendar developed and shared by the
 
 ## Things to do
 - Improve the current VBA code into a more streamlined, error-free and clean and elegant code
-- Will probably allow the parameters in and out of the UDFs in Burmese language/font and if this happens, it will be limited to Unicode fonts only (Myanmar people, please stop using Zawgyi font).
+- Will probably allow the parameters in and ~~out of the~~ UDFs in Burmese language/font and if this happens, it will be limited to Unicode fonts only (Myanmar people, please stop using Zawgyi font).
+         -Output to Burmese Unicode Font viz. Pyidaungsu Numbers was done as of 06NOV2021
 - Will probably take the pains to come up with an Excel formula but afraid that it will be quite staggering considering the calculations involved nonetheless, that's the first thing on my mind as of now
