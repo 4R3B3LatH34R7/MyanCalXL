@@ -63,7 +63,7 @@ Another issue that came with outputing Burmese fonts is the numbers. The numbers
 
 Enough said about Burmese outputs but one last thing remains that I, for one, do NOT wish to output anything except Numbers from the UDFs. For me, the numbers are the truest, cleanest and most efficient outputs from a UDF, that can be Matched, LookedUP, used-with-Data-Validation-dropdowns at the whims of the User. But in the interest of the ease of use of/by my beloved Myanmar people, I made this effort.\
 Epilogue: one day, I might work on Burmese inputs to the UDF: toMMRDate...\
-![Burmese output](/images/MyanCalXL_Burmese_Unicode_Combined.png)
+![Burmese output combined](/images/MyanCalXL_Burmese_Unicode_Combined.png)
 
 ### Requesting permission to port Javascript code to VBA code
 I have submitted a request to the original author: Mr. Yan Naing Aye to allow me to convert his Javascript code into VBA from his website's comment feature (that was like a week ago) and today through his LinkedIn page and so far (as of 04NOV2021), no reply was received yet.\
@@ -84,4 +84,5 @@ And there's an awesome realtime interactive calendar developed and shared by the
 - Improve the current VBA code into a more streamlined, error-free and clean and elegant code
 - Will probably allow the parameters in and ~~out of the~~ UDFs in Burmese language/font and if this happens, it will be limited to Unicode fonts only (Myanmar people, please stop using Zawgyi font).
   - Output to Burmese Unicode Font viz. Pyidaungsu Numbers was done as of 06NOV2021
+  - ![Burmese output single](/images/MyanCalXL_Burmese_Unicode.png)
 - Will probably take the pains to come up with an Excel formula but afraid that it will be quite staggering considering the calculations involved nonetheless, that's the first thing on my mind as of now
