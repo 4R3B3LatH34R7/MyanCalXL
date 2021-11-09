@@ -88,4 +88,4 @@ And there's an awesome realtime interactive calendar developed and shared by the
 - Will probably take the pains to come up with an Excel formula (non VBA-based-UDF) but afraid that it will be quite staggering considering the calculations involved nonetheless, that's the first thing on my mind as of now
 
 ## Wiki Pages
-Since the parameters/arguments that could be passed to the various functions, I believe that it is better to create a wiki on that matter so that the end-users can refer to the wiki pages rather than lengthening the Readme file here. Therefore, for more information on how to use the date conversion functions, please refer to the [wiki pages](https://github.com/4R3B3LatH34R7/MYANMARCalendarXL/wiki).
+Since the parameters/arguments that could be passed to the various functions, I believe that it is better to create a wiki on that matter so that the end-users can refer to the wiki pages rather than having to go through the extra-long Readme file here. Therefore, for more information on how to use the date conversion functions, please refer to the [wiki pages](https://github.com/4R3B3LatH34R7/MYANMARCalendarXL/wiki).
