@@ -1,4 +1,4 @@
-# MYANMARCalendarXL
+# MyanCalXL
 Routines for Calculation and Conversion between other calendar(s) and Myanmar Calendar as UDFs...\
 As of 04NOV2021, the following usages are possible.\
 Please note that the outputs of the functions are of type: <b>TEXT in Excel/String in VBA</b>.
