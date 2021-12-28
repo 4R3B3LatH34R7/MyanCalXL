@@ -1,10 +1,10 @@
-# MyanCalXL
+# 1.MyanCalXL
 Routines for Calculation and Conversion between other calendar(s) and Myanmar Calendar as UDFs...\
 As of 04NOV2021, the following usages are possible.\
 Please note that the outputs of the functions are of type: <b>TEXT in Excel/String in VBA</b>.
 ![as UDF](/images/MMRCalXL_in_Excel_asUDF.png)
 
-## Brief background
+# 2.Brief background
 I am a member of several Facebook groups where people discuss and ask for help on topics related MS Excel.\
 In those places, most of the frequent questions can quite easily be solved by Excel formulas, but many a question popped-up from time to time that managed to wake the curious cat in me to wonder whether to use VBA to solve them.\
 One of the many of these questions is: "How do I change from Myanmar date to English Date?" or vice versa...\
@@ -31,20 +31,20 @@ The current code is still pretty raw in that it was barely functional after bein
 I will have to develop it further to make the code more efficient and the code leaner and more like VBA.\
 And when it is ready, I will release a package here.
 
-## Bloopers
+## 2.1.Bloopers
 This part is reserved for the kinks that I faced while porting in from the Javascript code.
-### #1
+### 2.1.1
 I found that VBA's own mod function providing the modulus of a division, returns Integer types as result and that caused an error in calculation which took me 3-6hrs or so, to finally found it as the culprit (also because I don't fully understand the idea behind the whole Myanmar calendar concept and my unfamiliarity with Javascript).\
 It doesn't seem very big but when <b>3 mod 2.5</b> produces 1 where as a floating point modulus function would return <b>0.5</b> which would causes a chain reaction of adding up days like 2weeks to 50days in a calendar calculation!
-### #2
+### 2.1.2
 The second bottle neck I encountered during the porting process was setting a variable that I supposed should hold a boolean which I didn't know or forgot how Javascript handles booleans thus causing it to hold a VBA value of -1 equivalent to the Boolean TRUE while the original Javascript code assumed it to hold just a 0 and I was off by something like a staggering 4-5 months into the future.\
 Phew! Thank god I found it after 6hrs of being stuck trying to solve it by pulling my hairs out (now I just shaved my head like an egg. I mean, why not?!).
-### #3
+### 2.1.3
 The last issue is that there no intrinsic mechanism implemented in the original functions to check/reject the user from entering a Oo/Hnaung value (in English, Early or Late) Tagu(?Kason) month information while lacking it in parameter passing can cause errors in Burmese Dates into Western Dates conversion.\
 From Mr. Yan Naing Aye's page, I thought that it only occurs in the Tagu or Kason months and I believe that Tagu has more chance. It was clearly explained on his page and many thanks for sharing that knowledge.\
 But I believe that if we don't provide it, it might cause errorneous calculations. Need to check this further.\
 The best method I found so far is: to find the Burmese Date of a western date in question first, then using the output of that function=the correctly configured string for passing into the Burmese->Western Date conversion function because if a misconfigured Oo/Hnaung information were passed (the possible values are just a 0 and 1), there will be some wrong returns from the B->W conversion function.
-### #4
+### 2.1.4
 After the launch of this repo, a friend and a colleagure, Mr. Sithu Kyaw, shared his opinion that it would be nice to have the output (and/or input) as Burmese Unicode font.\
 And for 2 days, I worked on it. And yesterday, it was achieved (Well, the output part!).
 
@@ -65,27 +65,35 @@ Enough said about Burmese outputs but one last thing remains that I, for one, do
 Epilogue: one day, I might work on Burmese inputs to the UDF: toMMRDate...\
 ![Burmese output combined](/images/MyanCalXL_Burmese_Unicode_Combined.png)
 
-### Requesting permission to port Javascript code to VBA code
+# 3.Requesting permission to port Javascript code to VBA code
 I have submitted a request to the original author: Mr. Yan Naing Aye to allow me to convert his Javascript code into VBA from his website's comment feature (that was like a week ago) and today through his LinkedIn page and so far (as of 04NOV2021), no reply was received yet.\
 Until I am officially allowed to port, I won't be able to share my VBA code.\
 <b>As of 04NOV2021-1800, Mr. Yan Naing Aye has kindly and graciously allowed me to port his Javascript code on his [webpage](http://coolemerald.blogspot.com/2013/06/algorithm-program-and-calculation-of.html?m=1) into VBA code.</b>\
 However, I don't feel like the current VBA code is ready as of now to be distributed to the public as I need some time to clean up the code and review it to make it better and operate more efficiently.
 
-## Acknowledgements and Thanks
+# 4.Acknowledgements and Thanks
 All credits goes to Mr. Yan Naing Aye and also to the people who asked a simple question like, "How do we convert Myanmar dates to Western Dates...and vice versa?"...\
 We porters are literally like the Porters who carry stuff from the sellers, in this case the original author and the buyers, the Myanmar Users, to their doorsteps...
 
-## Further Information
+# 5.Further Information
 I searched and found that Mr. Yan Naing Aye has also a GitHub repo [here](https://github.com/yan9a/mmcal).\
 I found that there are both Javascript version and C++ version over there but the Javascript code is more complicated for me there, so, I just stick to the more understandable code and explanations on his website.\
 And there's an awesome realtime interactive calendar developed and shared by the same benefactor over [here](https://yan9a.github.io/mmcal/).
 
-## Things to do
+# 6.Things to do
 - Improve the current VBA code into a more streamlined, error-free and clean and elegant code
 - Will probably allow the parameters in and ~~out of the~~ UDFs in Burmese language/font and if this happens, it will be limited to Unicode fonts only (Myanmar people, please stop using Zawgyi font).
   - Output to Burmese Unicode Font viz. Pyidaungsu Numbers was done as of 06NOV2021
   - ![Burmese output single](/images/MyanCalXL_Burmese_Unicode2.png)
 - Will probably take the pains to come up with an Excel formula (non VBA-based-UDF) but afraid that it will be quite staggering considering the calculations involved nonetheless, that's the first thing on my mind as of now
 
-## Wiki Pages
+# 7.Wiki Pages
 Since the parameters/arguments that could be passed to the various functions, I believe that it is better to create a wiki on that matter so that the end-users can refer to the wiki pages rather than having to go through the extra-long Readme file here. Therefore, for more information on how to use the date conversion functions, please refer to the [wiki pages](https://github.com/4R3B3LatH34R7/MYANMARCalendarXL/wiki).
+
+# 8.Releases
+I believe that a brief explanation is required why the MyanCalXL is going to be released closed source.\
+Recently some people took advantage of my MMRTokenizer code and they used the ideas and concepts I openly shared with public to their advantage without recognizing the efforts I put into that project.\
+I don't really care about being recogized/credited but I didn't work hard for that person's benefit.\
+Therefore, all the future releases of my projects will be closed source.\
+Another reason is because of the fact that the complexity of the arguments passed to the functions demand help document on those arguments.\
+Therefore, I am going to release a .xlsm version which has Excel-DNA Intellisense embedded and the users only need to install Excel-DNA-Intellisense addin.
