@@ -95,5 +95,6 @@ I believe that a brief explanation is required why the MyanCalXL is going to be 
 Recently some people took advantage of my MMRTokenizer code and they used the ideas and concepts I openly shared with public to their advantage without recognizing the efforts I put into that project.\
 I don't really care about being recogized/credited but I didn't work hard for that person's benefit.\
 Therefore, all the future releases of my projects will be closed source.\
-Another reason is because of the fact that the complexity of the arguments passed to the functions demand help document on those arguments.\
+Another reason is because of the fact that the complexity of the arguments passed to the functions demand help documentation on those arguments.\
+The UDFs are best used with a contextual helps to make the most out of them.\
 Therefore, I am going to release a .xlsm version which has Excel-DNA Intellisense embedded and the users only need to install Excel-DNA-Intellisense addin.
