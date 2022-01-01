@@ -98,3 +98,11 @@ Therefore, all the future releases of my projects will be closed source.\
 Another reason is because of the fact that the complexity of the arguments passed to the functions demand help documentation on those arguments.\
 The UDFs are best used with a contextual helps to make the most out of them.\
 Therefore, I am going to release a .xlsm version which has Excel-DNA Intellisense embedded and the users only need to install Excel-DNA-Intellisense addin.
+
+Kindly check [Releases](https://github.com/4R3B3LatH34R7/MyanCalXL/releases)
+NB: Please download .chm together and install Excel-DNA.xll.
+
+## 8.1.Initial Release v1.0a
+1. [v1.0a](https://github.com/4R3B3LatH34R7/MyanCalXL/releases/tag/v1.0a) released on 01JAN2022 1100 MYANMAR STANDARD TIME.\
+<b><ins>This release is dedicated to the Brave but Gentle Myanmar people who are fighting back the brutal fascist military regime.\
+  Viva la revolución!</ins></b>
