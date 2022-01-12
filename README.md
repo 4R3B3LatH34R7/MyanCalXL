@@ -106,3 +106,20 @@ NB: Please download .chm together and install [Excel-DNA Intellisense .xll](http
 1. [v1.0a](https://github.com/4R3B3LatH34R7/MyanCalXL/releases/tag/v1.0a) released on 01JAN2022 1100 MYANMAR STANDARD TIME.\
 <b><ins>This release is dedicated to the Brave but Gentle Myanmar people who are fighting back the brutal fascist military regime.\
   Viva la revolución!</ins></b>
+  
+***
+## License
+I don't actually like/want/wish to apply CC BY-SA license to what I share, really!\
+However, there exists some jerks in this world who thought it's ok to derive my work without proper accreditation.\
+I don't care much for fame nor finance but a little credit for the many hours of my limited life I spent on a project.\
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+***
