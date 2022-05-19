@@ -106,7 +106,11 @@ NB: Please download .chm together and install [Excel-DNA Intellisense .xll](http
 1. [v1.0a](https://github.com/4R3B3LatH34R7/MyanCalXL/releases/tag/v1.0a) released on 01JAN2022 1100 MYANMAR STANDARD TIME.\
 <b><ins>This release is dedicated to the Brave but Gentle Myanmar people who are fighting back the brutal fascist military regime.\
   Viva la revolución!</ins></b>
-  
+
+# 9.Format
+The format of describing the Myanmar calendar date was set to follow the Myanmar newspaper & TV news announcements which I supposed were setting the basis for official writing/declaring/describing format of Myanmar date/time formst.
+Reference:At the end of the [WikiWand article](https://www.wikiwand.com/en/Burmese_calendar#/overview), under the section, "Official formats".
+
 ***
 ## License
 I don't actually like/want/wish to apply CC BY-SA license to what I share, really!\
