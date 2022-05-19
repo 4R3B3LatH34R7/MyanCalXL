@@ -108,7 +108,7 @@ NB: Please download .chm together and install [Excel-DNA Intellisense .xll](http
   Viva la revolución!</ins></b>
 
 # 9.Format
-The format of describing the Myanmar calendar date was set to follow the Myanmar newspaper & TV news announcements which I supposed were setting the basis for official writing/declaring/describing format of Myanmar date/time formst.
+The format of describing the Myanmar calendar date was set to follow the Myanmar newspapers & TV news announcements which I supposed were setting the basis for official writing/declaring/describing format of Myanmar date and time.\
 Reference:At the end of the [WikiWand article](https://www.wikiwand.com/en/Burmese_calendar#/overview), under the section, "Official formats".
 
 ***
