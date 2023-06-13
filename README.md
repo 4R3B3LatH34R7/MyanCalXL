@@ -78,7 +78,8 @@ We porters are literally like the Porters who carry stuff from the sellers, in t
 # 5.Further Information
 I searched and found that Mr. Yan Naing Aye has also a GitHub repo [here](https://github.com/yan9a/mmcal).\
 I found that there are both Javascript version and C++ version over there but the Javascript code is more complicated for me there, so, I just stick to the more understandable code and explanations on his website.\
-And there's an awesome realtime interactive calendar developed and shared by the same benefactor over [here](https://yan9a.github.io/mmcal/).\
+And there's an awesome realtime interactive calendar developed and shared by the same benefactor over [here](https://yan9a.github.io/mmcal/).
+
 It was my fault to add this information late because at the time of writing this README, I forgot to add a source that I have read to understand how Myanmar Calendar could be calculated in addition to Ko Yang Naing Aye's blog. Even while it has not been directly used in the porting of JS code to VBA but more like important to understand how Myanmar Calendar was calculated. This source is [မြန်မာပြက္ခဒိန်တွက်နည်း](http://shwenyein.blogspot.com/2012/07/blog-post_1862.html) by U Aye Nyein. It seems like Ko Yang Naing Aye himself consulted U Aye Nyein in the development of his own algorithm. In any case, I would like to thank U Aye Nyein for sharing his knowledge which is a very valuable source on the history of Myanmar Calendar.
 
 # 6.Things to do
