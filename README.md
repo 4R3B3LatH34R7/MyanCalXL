@@ -1,4 +1,4 @@
-This is a VBA port of [mmcal](https://github.com/yan9a/mmcal).
+<b>This is a VBA port of </b>[mmcal](https://github.com/yan9a/mmcal).
 
 # 1.MyanCalXL
 Routines for Calculation and Conversion between other calendar(s) and Myanmar Calendar as UDFs...\
