@@ -119,7 +119,7 @@ Reference:At the end of the [WikiWand article](https://www.wikiwand.com/en/Burme
 ## 10.1.Why for some years, there are 2 Akyat days and only 1 for some, concerning Thingyan Festival?
 This has always intrigue me. And only today(01/NOV/2025), I found out the reason behind it, from none-other-than U Aye Nyein's [Shwe Nyein](https://shwenyein.blogspot.com/2024/04/blog-post_16.html?m=1).\
 The following screenshot could explain better than I can ever explain.\
-image here
+![Akyat Days](/images/akyat_days.png)
 
 ***
 ## License
