@@ -115,6 +115,12 @@ NB: Please download .chm together and install [Excel-DNA Intellisense .xll](http
 The format of describing the Myanmar calendar date was set to follow the Myanmar newspapers & TV news announcements which I supposed were setting the basis for official writing/declaring/describing format of Myanmar date and time.\
 Reference:At the end of the [WikiWand article](https://www.wikiwand.com/en/Burmese_calendar#/overview), under the section, "Official formats".
 
+# 10.Fun Facts(actually very important information)
+## 10.1.Why for some years, there are 2 Akyat days and only 1 for some, concerning Thingyan Festival?
+This has always intrigue me. And only today(01/NOV/2025), I found out the reason behind it, from none-other-than U Aye Nyein's [Shwe Nyein](https://shwenyein.blogspot.com/2024/04/blog-post_16.html?m=1).\
+The following screenshot could explain better than I can ever explain.\
+image here
+
 ***
 ## License
 I don't actually like/want/wish to apply CC BY-SA license to what I share, really!\
